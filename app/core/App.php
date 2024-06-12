@@ -2,8 +2,8 @@
 
 class App
 {
-    protected $controller = 'KelasController';
-    protected $method = 'index';
+    protected $controller = 'AuthController';
+    protected $method = 'login';
     protected $params = [];
 
     public function __construct()
